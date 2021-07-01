@@ -1,0 +1,8 @@
+
+Version 1.0:
+
+- CHANGELOG.txt
+- Ficheros fuente: main.cpp funciones.cpp
+- Script configuracion: config.sh
+- README.txt
+- Makefile
