@@ -6,3 +6,7 @@ Version 1.0:
 - Script configuracion: config.sh
 - README.txt
 - Makefile
+
+Version 1.0.1:
+
+- Ya no sale el directorio ni el fichero al mostrar la pregunta

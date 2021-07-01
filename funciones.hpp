@@ -297,8 +297,6 @@ void test(int tema_dir, int numero_veces, std::vector<std::pair<int, int>> confi
 			fichero = std::to_string(rand() % config[temasion - 1].second + 1) + ".txt";
 			pregunta = read_file(directorio_copia+fichero);
 
-			//BORRAR ESTA LINEA, IMPRIME FICHERO DE LA PREGUNTA
-			std::cout << directorio_copia+fichero << std::endl;
 			print_question();
 
 			std::getline(std::cin, ans, '\n');
@@ -326,8 +324,6 @@ void test(int tema_dir, int numero_veces, std::vector<std::pair<int, int>> confi
 			fichero = std::to_string(rand() % config[tema_dir - 1].second + 1) + ".txt";
 			pregunta = read_file(directorio+fichero);
 
-			//BORRAR ESTA LINEA, IMPRIME FICHERO DE LA PREGUNTA
-			std::cout << directorio+fichero << std::endl;
 			print_question();
 
 			std::getline(std::cin, ans, '\n');
